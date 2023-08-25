@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-indexer-4-media-plex"
+version = "0.1.0"
+description = ""
+authors = ["Pedro Balbino <phsb5321@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_indexer_4_media_plex"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+natsort = "^8.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
